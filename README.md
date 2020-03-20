@@ -1,5 +1,5 @@
 # Covid19Compare
-Normalize and compare covid19 data.
+Normalize, compare and predict covid19 data.
 
 ### Sources:
 

@@ -1,7 +1,39 @@
 # Covid19Compare
 Normalize and compare covid19 data
 
-## Example (2020-03-16:00:00)
+## Calculate growth of corona in germany and predict nect day
+
+python3 growing_germany.py
+
+```
+2020-02-28          55 Infektionen           +111.54% zum Vortag                                                                     
+2020-02-29          68 Infektionen           +23.64% zum Vortag                                                                      
+2020-03-01          119 Infektionen          +75.0% zum Vortag                                                                       
+2020-03-02          152 Infektionen          +27.73% zum Vortag                                                                      
+2020-03-03          190 Infektionen          +25.0% zum Vortag                                                                       
+2020-03-04          264 Infektionen          +38.95% zum Vortag                                                                      
+2020-03-05          402 Infektionen          +52.27% zum Vortag                                                                      
+2020-03-06          641 Infektionen          +59.45% zum Vortag                                                                      
+2020-03-07          797 Infektionen          +24.34% zum Vortag                                                                      
+2020-03-08          905 Infektionen          +13.55% zum Vortag                                                                      
+2020-03-09          1141 Infektionen         +26.08% zum Vortag                                                                      
+2020-03-10          1567 Infektionen         +37.34% zum Vortag                                                                      
+2020-03-11          1968 Infektionen         +25.59% zum Vortag                                                                      
+2020-03-12          2747 Infektionen         +39.58% zum Vortag                                                                      
+2020-03-13          3677 Infektionen         +33.86% zum Vortag                                                                      
+2020-03-14          4587 Infektionen         +24.75% zum Vortag                                                                      
+2020-03-15          5815 Infektionen         +26.77% zum Vortag                                                                      
+2020-03-16          7274 Infektionen         +25.09% zum Vortag                                                                      
+2020-03-17          9362 Infektionen         +28.7% zum Vortag                                                                       
+2020-03-18          12329 Infektionen        +31.69% zum Vortag                                                                      
+2020-03-19          15322 Infektionen        +24.28% zum Vortag                                                                      
+                                                                                                                                     
+Durchschnittliches tägliches Wachstum der letzten 7 Tage: 27.88%                                                                     
+Eine Verdopplung fand im Schnitt alle 2.5 Tage statt                                                                                 
+Prognose für den nächsten Tag: 19593 bestätigte Infektionen        
+```
+
+## Compare percentage of invected citizens
 
 python3 compare_covid.py 
 
@@ -60,3 +92,5 @@ Weiterführende Ideen:
 - Durchgeführte Tests / Bürger (in den letzten x Tagen?) in den Score aufnehmen um die Dunkelziffer annähern zu können. 
   Ein Land, das nicht flächendeckend testet, sollte nicht im Score belohnt werden.
 ```
+
+## Grab infection data for Hessen, Germany

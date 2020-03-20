@@ -94,3 +94,36 @@ Weiterführende Ideen:
 ```
 
 ## Grab infection data for Hessen, Germany
+
+python3 grab_hessen.py
+
+```
+Kreis/Stadt,bestätigte Fälle                                                                                                         
+Gesamt,740                                                                                                                           
+SK Frankfurt am Main,95                                                                                                              
+LK Fulda,62                                                                                                                          
+LK Schwalm-Eder-Kreis,52                                                                                                             
+LK Hochtaunuskreis,40                                                                                                                
+LK Main-Kinzig-Kreis,40                                                                                                              
+LK Gießen,39                                                                                                                         
+LK Limburg-Weilburg,32                                                                                                               
+LK Offenbach,32                                                                                                                      
+LK Kassel,29                                                                                                                         
+SK Kassel,29                                                                                                                         
+LK Main-Taunus-Kreis,28                                                                                                              
+LK Marburg-Biedenkopf,27                                                                                                             
+LK Bergstraße,26                                                                                                                     
+LK Wetteraukreis,26                                                                                                                  
+LK Groß-Gerau,25                                                                                                                     
+LK Lahn-Dill-Kreis,23                                                                                                                
+LK Rheingau-Taunus-Kreis,21                                                                                                          
+LK Waldeck-Frankenberg,21                                                                                                            
+SK Wiesbaden,20                                                                                                                      
+LK Darmstadt-Dieburg,17                                                                                                              
+LK Hersfeld-Rotenburg,16                                                                                                             
+SK Darmstadt,14                                                                                                                      
+LK Vogelsbergkreis,13                                                                                                                
+LK Odenwaldkreis,8                                                                                                                   
+SK Offenbach,4                                                                                                                       
+LK Werra-Meißner-Kreis,1  
+```

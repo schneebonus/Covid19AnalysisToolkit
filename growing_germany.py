@@ -37,7 +37,9 @@ for line in current_stats_lines[1:]:
 
 past = 0
 growth_history = []
-for k in timeline.keys():
+keys = [k for k in timeline.keys()]
+keys.sort()
+for k in keys:
 	present = extract_region_infection_sum_for_time(k, "Deutschland", timeline)
 	if past is not 0:
 		growth_number = round(((present - past ) / past) * 100,2)

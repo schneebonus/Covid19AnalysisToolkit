@@ -1,5 +1,10 @@
 # Covid19Compare
-Normalize and compare covid19 data
+Normalize and compare covid19 data.
+
+### Sources:
+
+- https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/ (CSV API)
+- https://soziales.hessen.de/gesundheit/infektionsschutz/coronavirus-sars-cov-2/taegliche-uebersicht-der-bestaetigten-sars-cov-2-faelle-hessen (Crawler)
 
 ## Calculate growth of corona in germany and predict nect day
 
